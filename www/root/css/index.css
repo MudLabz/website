@@ -1,7 +1,8 @@
 :root {
     --color-theme-primary: #1e1e1e;
     --color-theme-secondary: #f1f1f1;
-    --color-theme-accent: #aa55ff;
+    --color-theme-accent-1: #9966FF;
+    --color-theme-accent-2: #FF5500;
 
     --size-navbar-height: 4rem;
     --size-footer-height: 4rem;
@@ -40,7 +41,7 @@ body {
 }
 
 #nav {
-    background: var(--color-theme-accent);
+    background: var(--color-theme-accent-1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,7 +64,7 @@ body {
 }
 
 #footer {
-    background: var(--color-theme-accent);
+    background: var(--color-theme-accent-1);
     display: flex;
     justify-content: center;
     align-items: center;
